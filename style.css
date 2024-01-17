@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+.conteiner{
+    width: 1440px;
+}
+
+.conteiner > header,main,footer{
+    margin-left: 350px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 1080px;
+    margin-bottom: 55px;
+}
+
+header .tubs svg{
+    display: none;
+}
+
+header .tubs{
+    display: flex;
+    gap: 2.5rem;
+    cursor: pointer;
+}
+
+header .tubs>*:hover{
+    color: #F15D51;
+}
+
+header p{
+    color: #5E607A;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; 
+}
+
+main{
+    display: flex;
+    margin-bottom: 55px;
+}
+main .first .desktop{
+    width: 700px;
+}
+main .first .text{
+    display: flex;
+    align-items: center;
+}
+main .first .one_line_text{
+    display: flex;
+    flex-direction: column;
+}
+main .first h1{
+    width: 21rem;
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3.5rem;
+    color: #00001A;
+    padding-right: 30px;
+}
+main .first p{
+    width: 21rem;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: #5E607A;
+    padding-bottom: 29px;
+    margin: 0;
+}
+
+main .first button{
+    width: 185px;
+    height: 48px;
+    background-color: #F15D51;
+    border: none;
+    color: #FFFDFA;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 4.375px;
+    cursor: pointer;
+}
+main .first button:hover{
+    background-color: #00001A;
+}
+
+
+main .second{
+    width: 350px;
+    height: 505px;
+    background-color: #00001A;
+    margin-left: 30px;
+}
+
+main .second > h2,.div_in_second {
+    padding-left: 1.5rem;
+    width: 302px;
+}
+
+main .second h2{
+    color: #E9AA52;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+main .second .div_in_second h3{
+    color: #FFFDFA;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+
+main .second .div_in_second h3:hover{
+    color: #E9AA52;
+}
+
+main .second .div_in_second p{
+    color: #C5C6CE;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+main .second hr{
+    width: 302px;
+    height: 1px;
+    background-color: #5E607A;
+    border: none;
+}
+footer{
+    display: flex;
+}
+footer .footer_text{
+    display: flex;
+}
+footer .footer_text img {
+    height: 127px;
+}
+footer .review {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+}
+
+footer .numbers{
+    color: #C5C6CE;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 0;
+    margin-bottom: 12px;
+}
+footer h4{
+    color: #00001A;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin: 0;
+    margin-bottom: 9px;
+    cursor: pointer;
+}
+footer h4:hover{
+    color: #F15D51;
+}
+
+footer .footer_main_text{
+    color: #5E607A;
+    width: 226px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+}
+
+footer .second,.third{
+    padding-left: 1rem;
+}
